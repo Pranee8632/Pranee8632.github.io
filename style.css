@@ -1,14 +1,6 @@
-/*for importing the fonts from the google u need to browse the google fonts and search the font and then click on the + icon and then copy the link */
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Raleway:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Instrument+Serif:ital@0;1&family=Permanent+Marker&family=Raleway:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Permanent+Marker&family=Raleway:ital,wght@1,200&display=swap');
-/*@font-face{
-    font-family:"Booter- Zero Zero";
-    src: url("fonts/Booter - Zero Zero.woff") format("woff"),
-         url("fonts/Booter - Zero Zero.woff2") format("woff2");
-    font-weight:normal;
-    font-style:normal;
-}   */
 @font-face {
     font-family:"Devil Breeze";
     src: url("/fonts/Devil\ Breeze\ Bold.ttf");
@@ -44,7 +36,7 @@ body{
 }
 
 .nav li{
-    display:inline;/*inorder to display them seperately in one line */
+    display:inline;
 }
 
 .nav a{
@@ -329,8 +321,6 @@ body{
     margin-right:25px;
 }
 
-/*last-child vadali ante div lo elements undali and aa elements kuda okokati div lo
-untuu vati class(div elements inside div element) names petkoni last-child use chestham*/
 
 .cart-row:last-child{
     border-bottom:1px solid black;
